@@ -1,0 +1,7 @@
+- name: Harden Ubuntu 18.04
+  hosts: localhost
+  become: yes
+  connection: local
+
+  roles:
+    - Ubuntu1804-CIS
